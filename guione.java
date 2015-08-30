@@ -2,8 +2,6 @@ package money;
 
 import java.awt.EventQueue;
 
-//This is my first Java code, I made it to count money (It good to count a lot of cash)
-//you can change the values, this is fit to Israeli coin now.
 
 public class guione {
 
@@ -84,15 +82,11 @@ public class guione {
 		btnNewButton2.setBounds(19, 451, 128, 29);
 		btnNewButton2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				double num01,num05;
-				int num1,num2,num5,num10,num20,num50,num100,num200;
-				double ans05,ans01, anstotal;
-				int ans1,ans2,ans5,ans10,ans20,ans50,ans100,ans200;
-				double userinput01,userinput05;
-				int userinput1,userinput2,userinput5,userinput10,userinput20,userinput50,userinput100,userinput200;
-				
+				double num01,num05,ans05,ans01,anstotal,userinput01,userinput05;
+				int ans1,ans2,ans5,ans10,ans20,ans50,ans100,ans200,num1,num2,num5,num10,num20,num50,num100,num200,userinput1,userinput2,userinput5,userinput10,userinput20,userinput50,userinput100,userinput200;
+						
 				try {
-					//coin one shekel
+					//coin one Shekel
 					
 					num01 = 0.10;
 					num05 = 0.5;
@@ -146,11 +140,7 @@ public class guione {
 					textFieldans200.setText(Integer.toString(ans200));
 					
 					textFieldanstotal.setText(Double.toString(anstotal));
-
-					
-					
-					
-					
+			
 				} catch (Exception e) {
 					JOptionPane.showMessageDialog(null, "Please ENTER NUMBERS Only!");
 				}
@@ -305,11 +295,7 @@ public class guione {
 		resetButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 			
-			try {
-				
-				
-				
-				
+			try {				
 				textFieldans01.setText("0");
 				textFieldans05.setText("0");
 				textFieldans1.setText("0");
