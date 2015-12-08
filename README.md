@@ -5,6 +5,9 @@ After you finish a hard day of work,
 you dont need paper and pen anymore!
 
 http://www.adamdelarosa.com/technology.html
+
+Writin in Java.
+
 http://postimg.org/image/ipy1h3b3j/
  
   
